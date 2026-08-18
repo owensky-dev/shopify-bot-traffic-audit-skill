@@ -1,0 +1,57 @@
+{
+  "schema_version": 2,
+  "store": {
+    "domain": "shop.example.com",
+    "platform": "shopify_hosted",
+    "storefront_type": "online_store",
+    "timezone": "America/New_York",
+    "primary_market": "US"
+  },
+  "window": {
+    "start": "2026-08-01T00:00:00-04:00",
+    "end": "2026-08-08T00:00:00-04:00"
+  },
+  "permission_mode": "browser-authorized-readonly",
+  "privacy": {
+    "contains_customer_pii": false,
+    "ip_handling": "not_collected"
+  },
+  "sources": [
+    {
+      "name": "shopify_analytics",
+      "layer": "shopify_sessions",
+      "access_method": "browser",
+      "status": "complete",
+      "coverage_start": "2026-08-01T00:00:00-04:00",
+      "coverage_end": "2026-08-08T00:00:00-04:00",
+      "artifact": "evidence/shopify-human-bot-sessions.png"
+    },
+    {
+      "name": "ga4",
+      "layer": "measurement",
+      "access_method": "browser",
+      "status": "complete",
+      "coverage_start": "2026-08-01T00:00:00-04:00",
+      "coverage_end": "2026-08-08T00:00:00-04:00",
+      "artifact": "evidence/ga4-traffic-acquisition.csv"
+    },
+    {
+      "name": "meta_ads",
+      "layer": "ads",
+      "access_method": "browser",
+      "status": "complete",
+      "coverage_start": "2026-08-01T00:00:00-04:00",
+      "coverage_end": "2026-08-08T00:00:00-04:00",
+      "artifact": "evidence/meta-placement-report.csv"
+    },
+    {
+      "name": "shopify_orders",
+      "layer": "commerce",
+      "access_method": "browser",
+      "status": "complete",
+      "coverage_start": "2026-08-01T00:00:00-04:00",
+      "coverage_end": "2026-08-08T00:00:00-04:00",
+      "artifact": "evidence/shopify-paid-order-aggregates.png"
+    }
+  ]
+}

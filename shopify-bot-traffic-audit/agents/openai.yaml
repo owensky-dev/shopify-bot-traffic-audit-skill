@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shopify 托管店机器人流量审计"
+  short_description: "只读核对 Shopify 托管店机器人、追踪故障和广告流量质量"
+  default_prompt: "Use $shopify-bot-traffic-audit to audit a Shopify-hosted store through approved exports or browser-authorized read-only access."
