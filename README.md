@@ -1,5 +1,7 @@
 # Shopify 托管店机器人流量审计 Skill
 
+[虎皮叔叔 · hupishushu.com](https://hupishushu.com/) · [项目介绍](https://hupishushu.com/projects/shopify-bot-traffic-audit-skill/) · [中文使用指南](https://hupishushu.com/skills/shopify-bot-traffic-audit/)
+
 一个面向标准 Shopify-hosted Online Store 的只读审计 Skill，用来区分：
 
 - Shopify 已分类的机器人会话
